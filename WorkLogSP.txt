@@ -1,0 +1,13 @@
+SequentalPinger Exercise 1
+
+Reading nr1 : https://www.journaldev.com/1090/java-callable-future-example
+Reading nr2 : https://stackoverflow.com/questions/9992992/is-there-a-way-to-take-an-argument-in-a-callable-method
+ 
+reading through link nr1 and figuring out the way to use callable and futures with excuterservice.
+
+i first implemented the MyCallable and call() with arguements like the getStatus() was before.
+i then realized that i cant use arguements with callables when i was reading link nr2
+so i switched it to the constructor instead and moved the initualization of MyCallable into the for-each loop
+so as to pass on the url as a constructor arguement.
+
+the program ran much faster in parallel about 15 times faster.
