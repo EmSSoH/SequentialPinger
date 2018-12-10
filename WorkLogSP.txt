@@ -11,3 +11,13 @@ so i switched it to the constructor instead and moved the initualization of MyCa
 so as to pass on the url as a constructor arguement.
 
 the program ran much faster in parallel about 15 times faster.
+
+
+Exercise 2
+
+a) done.
+
+b) they are equally as fast. it swings from 700-1000 milisecounds
+
+c) i would asume that there is a difference in computing power needed for one solution over the other
+   and the marginal speed increase might not be worth it in the long run.
